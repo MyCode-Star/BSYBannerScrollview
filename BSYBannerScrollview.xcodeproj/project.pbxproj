@@ -14,6 +14,13 @@
 		04AEA6581AE0FEEF00CE461C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AEA6571AE0FEEF00CE461C /* Images.xcassets */; };
 		04AEA65B1AE0FEEF00CE461C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AEA6591AE0FEEF00CE461C /* LaunchScreen.xib */; };
 		04AEA6671AE0FEEF00CE461C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AEA6661AE0FEEF00CE461C /* ____Tests.m */; };
+		04AEA6731AE0FF5500CE461C /* BSYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AEA6721AE0FF5500CE461C /* BSYScrollView.m */; };
+		04F98DB91AE8E11500214BE3 /* 离线缓存.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F98DB61AE8E11500214BE3 /* 离线缓存.png */; };
+		04F98DBA1AE8E11500214BE3 /* 近期观看.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F98DB71AE8E11500214BE3 /* 近期观看.png */; };
+		04F98DBB1AE8E11500214BE3 /* 我的收藏.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F98DB81AE8E11500214BE3 /* 我的收藏.png */; };
+		04F98DBD1AE8E70100214BE3 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F98DBC1AE8E70100214BE3 /* 2.png */; };
+		04F98DBF1AE8E70600214BE3 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F98DBE1AE8E70600214BE3 /* 3.png */; };
+		04F98DC11AE8E70900214BE3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F98DC01AE8E70900214BE3 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04AEA6471AE0FEEF00CE461C /* 循环播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "循环播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEA6471AE0FEEF00CE461C /* BSYBannerScrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSYBannerScrollview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AEA64B1AE0FEEF00CE461C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04AEA64C1AE0FEEF00CE461C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04AEA64E1AE0FEEF00CE461C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +44,17 @@
 		04AEA6551AE0FEEF00CE461C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AEA6571AE0FEEF00CE461C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04AEA65A1AE0FEEF00CE461C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		04AEA6601AE0FEEF00CE461C /* 循环播放Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "循环播放Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEA6601AE0FEEF00CE461C /* BSYBannerScrollviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSYBannerScrollviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AEA6651AE0FEEF00CE461C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04AEA6661AE0FEEF00CE461C /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		04AEA6711AE0FF5500CE461C /* BSYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYScrollView.h; sourceTree = "<group>"; };
+		04AEA6721AE0FF5500CE461C /* BSYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSYScrollView.m; sourceTree = "<group>"; };
+		04F98DB61AE8E11500214BE3 /* 离线缓存.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "离线缓存.png"; sourceTree = "<group>"; };
+		04F98DB71AE8E11500214BE3 /* 近期观看.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "近期观看.png"; sourceTree = "<group>"; };
+		04F98DB81AE8E11500214BE3 /* 我的收藏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的收藏.png"; sourceTree = "<group>"; };
+		04F98DBC1AE8E70100214BE3 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		04F98DBE1AE8E70600214BE3 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		04F98DC01AE8E70900214BE3 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,10 @@
 		04AEA63E1AE0FEEF00CE461C = {
 			isa = PBXGroup;
 			children = (
+				04F98DB61AE8E11500214BE3 /* 离线缓存.png */,
+				04F98DB71AE8E11500214BE3 /* 近期观看.png */,
+				04F98DB81AE8E11500214BE3 /* 我的收藏.png */,
+				04AEA6701AE0FF2200CE461C /* Scrollview */,
 				04AEA6491AE0FEEF00CE461C /* 循环播放 */,
 				04AEA6631AE0FEEF00CE461C /* 循环播放Tests */,
 				04AEA6481AE0FEEF00CE461C /* Products */,
@@ -72,8 +91,8 @@
 		04AEA6481AE0FEEF00CE461C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04AEA6471AE0FEEF00CE461C /* 循环播放.app */,
-				04AEA6601AE0FEEF00CE461C /* 循环播放Tests.xctest */,
+				04AEA6471AE0FEEF00CE461C /* BSYBannerScrollview.app */,
+				04AEA6601AE0FEEF00CE461C /* BSYBannerScrollviewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +115,9 @@
 		04AEA64A1AE0FEEF00CE461C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04F98DC01AE8E70900214BE3 /* 1.png */,
+				04F98DBE1AE8E70600214BE3 /* 3.png */,
+				04F98DBC1AE8E70100214BE3 /* 2.png */,
 				04AEA64B1AE0FEEF00CE461C /* Info.plist */,
 				04AEA64C1AE0FEEF00CE461C /* main.m */,
 			);
@@ -119,12 +141,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04AEA6701AE0FF2200CE461C /* Scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				04AEA6711AE0FF5500CE461C /* BSYScrollView.h */,
+				04AEA6721AE0FF5500CE461C /* BSYScrollView.m */,
+			);
+			name = Scrollview;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04AEA6461AE0FEEF00CE461C /* 循环播放 */ = {
+		04AEA6461AE0FEEF00CE461C /* BSYBannerScrollview */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04AEA66A1AE0FEEF00CE461C /* Build configuration list for PBXNativeTarget "循环播放" */;
+			buildConfigurationList = 04AEA66A1AE0FEEF00CE461C /* Build configuration list for PBXNativeTarget "BSYBannerScrollview" */;
 			buildPhases = (
 				04AEA6431AE0FEEF00CE461C /* Sources */,
 				04AEA6441AE0FEEF00CE461C /* Frameworks */,
@@ -134,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = "循环播放";
+			name = BSYBannerScrollview;
 			productName = "循环播放";
-			productReference = 04AEA6471AE0FEEF00CE461C /* 循环播放.app */;
+			productReference = 04AEA6471AE0FEEF00CE461C /* BSYBannerScrollview.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04AEA65F1AE0FEEF00CE461C /* 循环播放Tests */ = {
+		04AEA65F1AE0FEEF00CE461C /* BSYBannerScrollviewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04AEA66D1AE0FEEF00CE461C /* Build configuration list for PBXNativeTarget "循环播放Tests" */;
+			buildConfigurationList = 04AEA66D1AE0FEEF00CE461C /* Build configuration list for PBXNativeTarget "BSYBannerScrollviewTests" */;
 			buildPhases = (
 				04AEA65C1AE0FEEF00CE461C /* Sources */,
 				04AEA65D1AE0FEEF00CE461C /* Frameworks */,
@@ -152,9 +183,9 @@
 			dependencies = (
 				04AEA6621AE0FEEF00CE461C /* PBXTargetDependency */,
 			);
-			name = "循环播放Tests";
+			name = BSYBannerScrollviewTests;
 			productName = "循环播放Tests";
-			productReference = 04AEA6601AE0FEEF00CE461C /* 循环播放Tests.xctest */;
+			productReference = 04AEA6601AE0FEEF00CE461C /* BSYBannerScrollviewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04AEA6421AE0FEEF00CE461C /* Build configuration list for PBXProject "循环播放" */;
+			buildConfigurationList = 04AEA6421AE0FEEF00CE461C /* Build configuration list for PBXProject "BSYBannerScrollview" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04AEA6461AE0FEEF00CE461C /* 循环播放 */,
-				04AEA65F1AE0FEEF00CE461C /* 循环播放Tests */,
+				04AEA6461AE0FEEF00CE461C /* BSYBannerScrollview */,
+				04AEA65F1AE0FEEF00CE461C /* BSYBannerScrollviewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,7 +230,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F98DC11AE8E70900214BE3 /* 1.png in Resources */,
 				04AEA6561AE0FEEF00CE461C /* Main.storyboard in Resources */,
+				04F98DB91AE8E11500214BE3 /* 离线缓存.png in Resources */,
+				04F98DBD1AE8E70100214BE3 /* 2.png in Resources */,
+				04F98DBF1AE8E70600214BE3 /* 3.png in Resources */,
+				04F98DBA1AE8E11500214BE3 /* 近期观看.png in Resources */,
+				04F98DBB1AE8E11500214BE3 /* 我的收藏.png in Resources */,
 				04AEA65B1AE0FEEF00CE461C /* LaunchScreen.xib in Resources */,
 				04AEA6581AE0FEEF00CE461C /* Images.xcassets in Resources */,
 			);
@@ -221,6 +258,7 @@
 			files = (
 				04AEA6531AE0FEEF00CE461C /* ViewController.m in Sources */,
 				04AEA6501AE0FEEF00CE461C /* AppDelegate.m in Sources */,
+				04AEA6731AE0FF5500CE461C /* BSYScrollView.m in Sources */,
 				04AEA64D1AE0FEEF00CE461C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +276,7 @@
 /* Begin PBXTargetDependency section */
 		04AEA6621AE0FEEF00CE461C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04AEA6461AE0FEEF00CE461C /* 循环播放 */;
+			target = 04AEA6461AE0FEEF00CE461C /* BSYBannerScrollview */;
 			targetProxy = 04AEA6611AE0FEEF00CE461C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -345,7 +383,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "循环播放/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BSYBannerScrollview;
 			};
 			name = Debug;
 		};
@@ -355,7 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "循环播放/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BSYBannerScrollview;
 			};
 			name = Release;
 		};
@@ -373,7 +411,7 @@
 				);
 				INFOPLIST_FILE = "循环播放Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BSYBannerScrollviewTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/循环播放.app/循环播放";
 			};
 			name = Debug;
@@ -388,7 +426,7 @@
 				);
 				INFOPLIST_FILE = "循环播放Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BSYBannerScrollviewTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/循环播放.app/循环播放";
 			};
 			name = Release;
@@ -396,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04AEA6421AE0FEEF00CE461C /* Build configuration list for PBXProject "循环播放" */ = {
+		04AEA6421AE0FEEF00CE461C /* Build configuration list for PBXProject "BSYBannerScrollview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04AEA6681AE0FEEF00CE461C /* Debug */,
@@ -405,21 +443,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04AEA66A1AE0FEEF00CE461C /* Build configuration list for PBXNativeTarget "循环播放" */ = {
+		04AEA66A1AE0FEEF00CE461C /* Build configuration list for PBXNativeTarget "BSYBannerScrollview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04AEA66B1AE0FEEF00CE461C /* Debug */,
 				04AEA66C1AE0FEEF00CE461C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		04AEA66D1AE0FEEF00CE461C /* Build configuration list for PBXNativeTarget "循环播放Tests" */ = {
+		04AEA66D1AE0FEEF00CE461C /* Build configuration list for PBXNativeTarget "BSYBannerScrollviewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04AEA66E1AE0FEEF00CE461C /* Debug */,
 				04AEA66F1AE0FEEF00CE461C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
